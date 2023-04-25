@@ -24,7 +24,11 @@ const News = ({ item }) => {
       }}
     >
       <Image
-        source={{ uri: item.urlToImage ?? 'https://picsum.photos/200' }}
+        source={{
+          uri:
+            item.urlToImage ??
+            'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_104524470_stock-vector-no-image-available-icon-flat-vector-illustration.html&psig=AOvVaw0QZ2Z2Q4Z2QZ2Z2QZ2Z2QZ2&ust=1629789858664000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjQ4Z2Z2PICFQAAAAAdAAAAABAD',
+        }}
         style={{ height: '45%', resizeMode: 'cover', width: windowWidth }}
       />
       <View
