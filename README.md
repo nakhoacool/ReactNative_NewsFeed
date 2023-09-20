@@ -27,3 +27,10 @@ react-native run-android
 # or
 react-native run-ios
 ```   
+## Contributing
+
+If you'd like to contribute to this project, please follow the standard GitHub flow:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
